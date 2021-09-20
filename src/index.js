@@ -4,10 +4,32 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const data = {
+    name: "Neil Rhodes",
+    email: "rhodes@hmc.edu",
+    phone: "(909) 555-1212"
+};
+
+// const data = [
+//     {
+//         id: 512,
+//         name: "Neil Rhodes",
+//         email: "rhodes@hmc.edu",
+//         phone: "(909) 555-1212"
+//     },
+//     {
+//         id: 787,
+//         name: "Barack Obama",
+//         email: "ex-prez@whitehouse.gov",
+//         phone: "(312) 555-1212"
+//     }
+// ];
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
+    data,
   document.getElementById('root')
 );
 
